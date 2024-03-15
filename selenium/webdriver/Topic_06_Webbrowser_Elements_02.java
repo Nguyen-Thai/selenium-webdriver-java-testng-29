@@ -210,7 +210,7 @@ public class Topic_06_Webbrowser_Elements_02 {
         Assert.assertTrue(driver.findElement(By.cssSelector("li[class='special-char completed']")).isDisplayed());
         Assert.assertTrue(driver.findElement(By.cssSelector("li[class='username-check completed']")).isDisplayed());
         sleepInsecond(3);
-//        more than 8 characters - valid
+//        more than 8 characters - validd
 
         driver.findElement(By.cssSelector("input#new_password")).clear();
         driver.findElement(By.cssSelector("input#new_password")).sendKeys("Biggggg123#lki67");
